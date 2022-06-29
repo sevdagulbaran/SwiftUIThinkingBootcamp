@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TextBootcamp: View {
     var body: some View {
+        
         Text("Hello, World! This is the SwiftUI Thinking Bootcamp. I'm really enjoying this course and learning a lot.")
             .bold()
             .underline(true, color: Color.red)

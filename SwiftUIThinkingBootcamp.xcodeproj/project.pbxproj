@@ -53,11 +53,10 @@
 		528EF770286CF9E800D0D310 /* SwiftUIThinkingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				528EF771286CF9E800D0D310 /* SwiftUIThinkingBootcampApp.swift */,
+				528EF781286D03B000D0D310 /* Components */,
 				528EF773286CF9E800D0D310 /* ContentView.swift */,
-				528EF775286CF9EB00D0D310 /* Assets.xcassets */,
+				528EF771286CF9E800D0D310 /* SwiftUIThinkingBootcampApp.swift */,
 				528EF777286CF9EB00D0D310 /* Preview Content */,
-				528EF77F286CFBB100D0D310 /* TextBootcamp.swift */,
 			);
 			path = SwiftUIThinkingBootcamp;
 			sourceTree = "<group>";
@@ -65,9 +64,18 @@
 		528EF777286CF9EB00D0D310 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				528EF775286CF9EB00D0D310 /* Assets.xcassets */,
 				528EF778286CF9EB00D0D310 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		528EF781286D03B000D0D310 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				528EF77F286CFBB100D0D310 /* TextBootcamp.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
