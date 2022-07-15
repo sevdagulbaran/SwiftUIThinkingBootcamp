@@ -10,16 +10,14 @@ import SwiftUI
 struct ShapesBootcamp: View {
     var body: some View {
         Circle()
-        Rectangle()
-        Ellipse()
             .fill(Color.orange)
             .foregroundColor(Color.pink)
-            .stroke()
-            .stroke(Color.red)
-            .stroke(Color.blue, lineWidth: 30)
-            .stroke(Color.orange, style: StrokeStyle(lineWidth: 20, lineCap: .butt, dash: [10]))
+            //.stroke()
+            //.stroke(Color.red)
+            //.stroke(Color.blue, lineWidth: 30)
+            //.stroke(Color.orange, style: StrokeStyle(lineWidth: 20, lineCap: .butt, dash: [10]))
             //the specified area
-            .trim(from: 0.2, to: 1.0)
+           // .trim(from: 0.2, to: 1.0)
     }
 }
 
