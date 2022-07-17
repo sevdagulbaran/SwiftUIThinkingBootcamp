@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522843B52883FFE60033F388 /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522843B42883FFE60033F388 /* GridBootcamp.swift */; };
+		522843B7288405EF0033F388 /* IgnoreSafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522843B6288405EF0033F388 /* IgnoreSafeAreaBootcamp.swift */; };
+		522843B928840BC60033F388 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522843B828840BC60033F388 /* StateBootcamp.swift */; };
 		5285F5572880F2D30048999C /* InitilazerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285F5562880F2D30048999C /* InitilazerBootcamp.swift */; };
 		5285F5592880F6430048999C /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285F5582880F6430048999C /* ForEachBootcamp.swift */; };
 		528EF772286CF9E800D0D310 /* SwiftUIThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528EF771286CF9E800D0D310 /* SwiftUIThinkingBootcampApp.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522843B42883FFE60033F388 /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
+		522843B6288405EF0033F388 /* IgnoreSafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBootcamp.swift; sourceTree = "<group>"; };
+		522843B828840BC60033F388 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		5285F5562880F2D30048999C /* InitilazerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitilazerBootcamp.swift; sourceTree = "<group>"; };
 		5285F5582880F6430048999C /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		528EF76E286CF9E800D0D310 /* SwiftUIThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +92,9 @@
 				529DF1F72870DC1A003A34CC /* ImagesBootcamp.swift */,
 				5285F5562880F2D30048999C /* InitilazerBootcamp.swift */,
 				5285F5582880F6430048999C /* ForEachBootcamp.swift */,
+				522843B42883FFE60033F388 /* GridBootcamp.swift */,
+				522843B6288405EF0033F388 /* IgnoreSafeAreaBootcamp.swift */,
+				522843B828840BC60033F388 /* StateBootcamp.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -160,12 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522843B928840BC60033F388 /* StateBootcamp.swift in Sources */,
+				522843B52883FFE60033F388 /* GridBootcamp.swift in Sources */,
 				528EF784286D042D00D0D310 /* ShapesBootcamp.swift in Sources */,
 				528EF774286CF9E800D0D310 /* ContentView.swift in Sources */,
 				528EF780286CFBB100D0D310 /* TextBootcamp.swift in Sources */,
 				528EF772286CF9E800D0D310 /* SwiftUIThinkingBootcampApp.swift in Sources */,
 				5285F5592880F6430048999C /* ForEachBootcamp.swift in Sources */,
 				5285F5572880F2D30048999C /* InitilazerBootcamp.swift in Sources */,
+				522843B7288405EF0033F388 /* IgnoreSafeAreaBootcamp.swift in Sources */,
 				529DF1F82870DC1A003A34CC /* ImagesBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
